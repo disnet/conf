@@ -1,3 +1,4 @@
+let mapleader = ","
 set background=dark
 colorscheme evening
 
@@ -54,5 +55,8 @@ noremap <S-F6> <C-W>W
 noremap <C-N> :next<CR>
 noremap <C-P> :prev<CR>
 
-nmap ,s :source $HOME/.vimrc<CR>
-nmap ,v :e $HOME/.vimrc<CR>
+nmap <Leader>s :source $HOME/.vimrc<CR>
+nmap <Leader>v :e $HOME/.vimrc<CR>
+
+let next_action = $HOME . "/.todo/" . matchstr(getcwd(),'[^/]*$')
+nmap <Leader>d :edit next_action<CR>
