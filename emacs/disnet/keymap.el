@@ -20,5 +20,3 @@
 (global-set-key "\C-," 'disnet-load-keymap)
 
 (global-set-key "\C-\." 'disnet-load-commands)
-
-; test comment
