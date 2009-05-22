@@ -1,0 +1,1151 @@
+
+django-mode.el,221
+(defvar django-mode-hook 20,491
+(defvar django-mode-map22,522
+(defconst django-font-lock-keywords-130,767
+(defvar django-font-lock-keywords 38,1287
+(defvar django-mode-syntax-table42,1441
+(defun django-mode 47,1595
+
+js2.el,36531
+(defvar js2-emacs22 130,5163
+(defcustom js2-highlight-level 132,5213
+(defvar js2-mode-dev-mode-p 141,5505
+(defgroup js2-mode 144,5598
+(defcustom js2-basic-offset 148,5676
+(defcustom js2-cleanup-whitespace 158,6045
+(defcustom js2-move-point-on-right-click 163,6184
+(defcustom js2-mirror-mode 175,6675
+(defcustom js2-auto-indent-flag 180,6810
+(defcustom js2-bounce-indent-flag 186,7018
+(defcustom js2-indent-on-enter-key 197,7560
+(defcustom js2-enter-indents-newline 203,7756
+(defcustom js2-rebind-eol-bol-keys 209,7967
+(defcustom js2-electric-keys 215,8175
+(defcustom js2-idle-timer-delay 221,8398
+(defcustom js2-dynamic-idle-timer-adjust 228,8642
+(defcustom js2-mode-escape-quotes 241,9268
+(defcustom js2-mode-squeeze-spaces 246,9406
+(defcustom js2-mode-show-parse-errors 252,9600
+(defcustom js2-mode-show-strict-warnings 257,9714
+(defcustom js2-strict-trailing-comma-warning 264,9938
+(defcustom js2-strict-missing-semi-warning 271,10214
+(defcustom js2-missing-semi-one-line-override 278,10453
+(defcustom js2-strict-inconsistent-return-warning 287,10827
+(defcustom js2-strict-cond-assign-warning 295,11170
+(defcustom js2-strict-cond-assign-warning 303,11486
+(defcustom js2-strict-var-redeclaration-warning 311,11802
+(defcustom js2-strict-var-hides-function-arg-warning 316,11963
+(defcustom js2-skip-preprocessor-directives 321,12121
+(defcustom js2-basic-offset 327,12315
+(defcustom js2-language-version 333,12500
+(defcustom js2-allow-keywords-as-property-names 342,12832
+(defcustom js2-instanceof-has-side-effects 353,13129
+(defcustom js2-allow-rhino-new-expr-initializer 359,13320
+(defcustom js2-allow-member-expr-as-function-name 378,13919
+(defvar js2-mode-version 404,14788
+(defvar js2-token-beg 410,14936
+(defvar js2-token-end 412,15005
+(defvar js2-EOF_CHAR 415,15076
+(defvar js2-ERROR 421,15365
+(defvar js2-EOF 422,15387
+(defvar js2-EOL 423,15406
+(defvar js2-ENTERWITH 424,15425
+(defvar js2-LEAVEWITH 425,15486
+(defvar js2-RETURN 426,15511
+(defvar js2-GOTO 427,15533
+(defvar js2-IFEQ 428,15553
+(defvar js2-IFNE 429,15573
+(defvar js2-SETNAME 430,15593
+(defvar js2-BITOR 431,15616
+(defvar js2-BITXOR 432,15637
+(defvar js2-BITAND 433,15660
+(defvar js2-EQ 434,15683
+(defvar js2-NE 435,15702
+(defvar js2-LT 436,15721
+(defvar js2-LE 437,15740
+(defvar js2-GT 438,15759
+(defvar js2-GE 439,15778
+(defvar js2-LSH 440,15797
+(defvar js2-RSH 441,15817
+(defvar js2-URSH 442,15837
+(defvar js2-ADD 443,15858
+(defvar js2-SUB 444,15902
+(defvar js2-MUL 445,15947
+(defvar js2-DIV 446,15967
+(defvar js2-MOD 447,15987
+(defvar js2-NOT 448,16007
+(defvar js2-BITNOT 449,16027
+(defvar js2-POS 450,16050
+(defvar js2-NEG 451,16094
+(defvar js2-NEW 452,16139
+(defvar js2-DELPROP 453,16159
+(defvar js2-TYPEOF 454,16183
+(defvar js2-GETPROP 455,16206
+(defvar js2-GETPROPNOWARN 456,16230
+(defvar js2-SETPROP 457,16260
+(defvar js2-GETELEM 458,16284
+(defvar js2-SETELEM 459,16308
+(defvar js2-CALL 460,16332
+(defvar js2-NAME 461,16353
+(defvar js2-NUMBER 462,16400
+(defvar js2-STRING 463,16423
+(defvar js2-NULL 464,16446
+(defvar js2-THIS 465,16467
+(defvar js2-FALSE 466,16488
+(defvar js2-TRUE 467,16510
+(defvar js2-SHEQ 468,16531
+(defvar js2-SHNE 469,16587
+(defvar js2-REGEXP 470,16645
+(defvar js2-BINDNAME 471,16668
+(defvar js2-THROW 472,16693
+(defvar js2-RETHROW 473,16715
+(defvar js2-IN 474,16796
+(defvar js2-INSTANCEOF 475,16815
+(defvar js2-LOCAL_LOAD 476,16842
+(defvar js2-GETVAR 477,16869
+(defvar js2-SETVAR 478,16892
+(defvar js2-CATCH_SCOPE 479,16915
+(defvar js2-ENUM_INIT_KEYS 480,16943
+(defvar js2-ENUM_INIT_VALUES 481,16974
+(defvar js2-ENUM_INIT_ARRAY 482,17007
+(defvar js2-ENUM_NEXT 483,17039
+(defvar js2-ENUM_ID 484,17065
+(defvar js2-THISFN 485,17089
+(defvar js2-RETURN_RESULT 486,17112
+(defvar js2-ARRAYLIT 487,17187
+(defvar js2-OBJECTLIT 488,17234
+(defvar js2-GET_REF 489,17282
+(defvar js2-SET_REF 490,17326
+(defvar js2-DEL_REF 491,17382
+(defvar js2-REF_CALL 492,17432
+(defvar js2-REF_SPECIAL 493,17498
+(defvar js2-YIELD 494,17577
+(defvar js2-DEFAULTNAMESPACE 497,17654
+(defvar js2-ESCXMLATTR 498,17687
+(defvar js2-ESCXMLTEXT 499,17714
+(defvar js2-REF_MEMBER 500,17741
+(defvar js2-REF_NS_MEMBER 501,17804
+(defvar js2-REF_NAME 502,17874
+(defvar js2-REF_NS_NAME 503,17935
+(defvar js2-first-bytecode 505,18006
+(defvar js2-last-bytecode 506,18048
+(defvar js2-TRY 508,18092
+(defvar js2-SEMI 509,18112
+(defvar js2-LB 510,18155
+(defvar js2-RB 511,18212
+(defvar js2-LC 512,18231
+(defvar js2-RC 513,18292
+(defvar js2-LP 514,18311
+(defvar js2-RP 515,18366
+(defvar js2-COMMA 516,18385
+(defvar js2-ASSIGN 518,18434
+(defvar js2-ASSIGN_BITOR 519,18489
+(defvar js2-ASSIGN_BITXOR 520,18525
+(defvar js2-ASSIGN_BITAND 521,18561
+(defvar js2-ASSIGN_LSH 522,18597
+(defvar js2-ASSIGN_RSH 523,18634
+(defvar js2-ASSIGN_URSH 524,18671
+(defvar js2-ASSIGN_ADD 525,18709
+(defvar js2-ASSIGN_SUB 526,18745
+(defvar js2-ASSIGN_MUL 527,18781
+(defvar js2-ASSIGN_DIV 528,18817
+(defvar js2-ASSIGN_MOD 529,18853
+(defvar js2-first-assign 531,18890
+(defvar js2-last-assign 532,18927
+(defvar js2-HOOK 534,18968
+(defvar js2-COLON 535,19018
+(defvar js2-OR 536,19041
+(defvar js2-AND 537,19090
+(defvar js2-INC 538,19140
+(defvar js2-DEC 539,19201
+(defvar js2-DOT 540,19222
+(defvar js2-FUNCTION 541,19275
+(defvar js2-EXPORT 542,19325
+(defvar js2-IMPORT 543,19373
+(defvar js2-IF 544,19421
+(defvar js2-ELSE 545,19465
+(defvar js2-SWITCH 546,19511
+(defvar js2-CASE 547,19559
+(defvar js2-DEFAULT 548,19605
+(defvar js2-WHILE 549,19654
+(defvar js2-DO 550,19701
+(defvar js2-FOR 551,19745
+(defvar js2-BREAK 552,19790
+(defvar js2-CONTINUE 553,19837
+(defvar js2-VAR 554,19887
+(defvar js2-WITH 555,19932
+(defvar js2-CATCH 556,19978
+(defvar js2-FINALLY 557,20025
+(defvar js2-VOID 558,20074
+(defvar js2-RESERVED 559,20120
+(defvar js2-EMPTY 561,20172
+(defvar js2-BLOCK 565,20259
+(defvar js2-LABEL 566,20308
+(defvar js2-TARGET 567,20347
+(defvar js2-LOOP 568,20371
+(defvar js2-EXPR_VOID 569,20393
+(defvar js2-EXPR_RESULT 570,20460
+(defvar js2-JSR 571,20525
+(defvar js2-SCRIPT 572,20546
+(defvar js2-TYPEOFNAME 573,20612
+(defvar js2-USE_STACK 574,20669
+(defvar js2-SETPROP_OP 575,20696
+(defvar js2-SETELEM_OP 576,20747
+(defvar js2-LOCAL_BLOCK 577,20799
+(defvar js2-SET_REF_OP 578,20828
+(defvar js2-DOTDOT 581,20907
+(defvar js2-COLONCOLON 582,20961
+(defvar js2-XML 583,21010
+(defvar js2-DOTQUERY 584,21052
+(defvar js2-XMLATTR 585,21127
+(defvar js2-XMLEND 586,21162
+(defvar js2-TO_OBJECT 589,21212
+(defvar js2-TO_DOUBLE 590,21239
+(defvar js2-GET 592,21267
+(defvar js2-SET 593,21326
+(defvar js2-LET 594,21385
+(defvar js2-CONST 595,21444
+(defvar js2-SETCONST 596,21467
+(defvar js2-SETCONSTVAR 597,21493
+(defvar js2-ARRAYCOMP 598,21522
+(defvar js2-LETEXPR 599,21549
+(defvar js2-WITHEXPR 600,21574
+(defvar js2-DEBUGGER 601,21600
+(defvar js2-COMMENT 603,21627
+(defvar js2-num-tokens 605,21673
+(defconst js2-debug-print-trees 607,21715
+(defmacro deflocal 614,21974
+(deflocal js2-ts-dirty-line 622,22248
+(deflocal js2-ts-regexp-flags 626,22381
+(deflocal js2-ts-string 629,22457
+(deflocal js2-ts-number 633,22547
+(deflocal js2-ts-hit-eof 637,22646
+(deflocal js2-ts-line-start 640,22717
+(deflocal js2-ts-lineno 643,22789
+(deflocal js2-ts-line-end-char 646,22857
+(deflocal js2-ts-cursor 649,22933
+(deflocal js2-ts-is-xml-attribute 653,23055
+(deflocal js2-ts-xml-is-tag-content 656,23135
+(deflocal js2-ts-xml-open-tags-count 659,23217
+(deflocal js2-ts-string-buffer 662,23298
+(deflocal js2-ts-comment-type 666,23429
+(defvar js2-parsed-errors 671,23527
+(defvar js2-parsed-warnings 675,23660
+(defvar js2-recover-from-parse-errors 679,23799
+(defvar js2-parse-hook 691,24273
+(defvar js2-parse-finished-hook 695,24401
+(defvar js2-is-eval-code 699,24533
+(defvar js2-parse-ide-mode 706,24835
+(defconst js2-clear-ti-mask 714,25172
+(defconst js2-ti-after-eol 717,25251
+(defconst js2-ti-check-label 720,25334
+(defvar js2-compiler-generate-debug-info 725,25476
+(defvar js2-compiler-use-dynamic-scope 728,25584
+(defvar js2-compiler-reserved-keywords-as-identifier 731,25690
+(defvar js2-compiler-xml-available 734,25824
+(defvar js2-compiler-optimization-level 737,25920
+(defvar js2-compiler-generating-source 740,26026
+(defvar js2-compiler-strict-mode 743,26130
+(defvar js2-compiler-report-warning-as-error 746,26224
+(defvar js2-compiler-generate-observer-count 749,26342
+(defvar js2-compiler-activation-names 752,26460
+(defvar js2-called-by-compile-function 758,26652
+(defvar js2-current-flagged-token 765,26949
+(defvar js2-current-token 768,27049
+(defvar js2-nesting-of-function 774,27250
+(defvar js2-recorded-assignments 777,27340
+(defvar js2-current-script-or-fn 786,27579
+(defvar js2-current-scope 789,27673
+(defvar js2-nesting-of-with 792,27753
+(defvar js2-label-set 795,27835
+(defvar js2-loop-set 799,27950
+(defvar js2-loop-and-switch-set 802,28020
+(defvar js2-has-return-value 805,28112
+(defvar js2-end-flags 808,28198
+(defvar js2-prev-name-token-start 816,28487
+(defvar js2-prev-name-token-string 817,28526
+(defsubst js2-save-name-token-data 819,28567
+(defconst js2-end-unreached 843,29502
+(defconst js2-end-drops-off 844,29539
+(defconst js2-end-returns 845,29576
+(defconst js2-end-returns-value 846,29613
+(defconst js2-end-yields 847,29650
+(defvar js2-labeled-stmt 853,29947
+(defvar js2-in-for-init 860,30317
+(defvar js2-temp-name-counter 863,30393
+(defvar js2-parse-stmt-count 866,30479
+(defsubst js2-get-next-temp-name 869,30563
+(defvar js2-parse-interruptable-p 872,30647
+(defvar js2-statements-per-pause 876,30793
+(defvar js2-record-comments 885,31226
+(defvar js2-scanned-comments 889,31380
+(defun js2-underline-color 893,31515
+(defcustom js2-mode-indent-inhibit-undo 901,31793
+(defcustom js2-mode-indent-ignore-first-tab 908,32060
+(defvar js2-indent-hook 928,33072
+(defface js2-warning-face950,34120
+(defface js2-error-face959,34406
+(defface js2-jsdoc-tag-face968,34643
+(defface js2-jsdoc-type-face973,34786
+(defface js2-jsdoc-value-face978,34930
+(defface js2-function-param-face983,35072
+(defface js2-instance-member-face988,35220
+(defface js2-private-member-face994,35390
+(defface js2-private-function-call-face1000,35565
+(defface js2-jsdoc-html-tag-name-face1006,35748
+(defface js2-jsdoc-html-tag-delimiter-face1022,36368
+(defface js2-external-variable-face1038,36995
+(defcustom js2-highlight-external-variables 1047,37400
+(defvar js2-mode-map1052,37545
+(defconst js2-mode-identifier-re 1144,41692
+(defvar js2-mode-//-comment-re 1146,41754
+(defvar js2-mode-ast 1150,41921
+(defvar js2-mode-hook 1153,42011
+(defvar js2-mode-parse-timer 1155,42039
+(defvar js2-mode-buffer-dirty-p 1158,42145
+(defvar js2-mode-parsing 1161,42257
+(defvar js2-mode-node-overlay 1164,42355
+(defvar js2-mode-show-overlay 1167,42443
+(defvar js2-mode-fontifications 1170,42553
+(defvar js2-mode-deferred-properties 1173,42664
+(defvar js2-imenu-recorder 1176,42785
+(defvar js2-imenu-function-map 1179,42886
+(defvar js2-paragraph-start1182,42995
+(defvar js2-syntactic-ws-start1187,43185
+(defvar js2-syntactic-ws-end1190,43283
+(defvar js2-syntactic-eol1193,43340
+(defvar js2-comment-prefix-regexp1202,43642
+(defvar js2-comment-start-skip1205,43693
+(defvar js2-mode-verbose-parse-p 1208,43753
+(defvar js2-mode-functions-hidden 1211,43860
+(defvar js2-mode-comments-hidden 1212,43918
+(defvar js2-mode-syntax-table1214,43976
+(defvar js2-mode-abbrev-table 1220,44135
+(define-abbrev-table 'js2-mode-abbrev-table js2-mode-abbrev-table1222,44217
+(defvar js2-mode-must-byte-compile 1224,44266
+(defvar js2-mode-pending-parse-callbacks 1227,44398
+(defvar js2-mode-last-indented-line 1230,44514
+(defun js2-delete-if 1333,48203
+(defun js2-position 1339,48383
+(defun js2-find-if 1351,48749
+(defmacro js2-time 1362,49032
+(def-edebug-spec js2-time 1374,49436
+(defsubst neq 1376,49466
+(defsubst js2-same-line 1380,49556
+(defsubst js2-same-line-2 1385,49709
+(defun js2-code-bug 1391,49852
+(defsubst js2-record-parse-error 1397,50097
+(defsubst js2-report-error 1403,50309
+(defsubst js2-report-warning 1415,50732
+(defsubst js2-add-strict-warning 1423,51047
+(defmacro js2-clear-flag 1436,51524
+(defmacro js2-set-flag 1439,51612
+(defsubst js2-flag-set-p 1443,51721
+(defsubst js2-flag-not-set-p 1446,51790
+(defmacro js2-with-unmodifying-text-property-changes 1450,51916
+(def-edebug-spec js2-with-unmodifying-text-property-changes 1469,52654
+(defmacro js2-with-underscore-as-word-syntax 1471,52718
+(def-edebug-spec js2-with-underscore-as-word-syntax 1482,53192
+(defmacro with-buffer 1484,53248
+(defsubst char-is-uppercase 1497,53576
+(defsubst char-is-lowercase 1502,53719
+(def-edebug-spec with-buffer 1508,53903
+(defvar js2-tokens 1529,54275
+(defvar js2-token-names1532,54357
+(defun js2-token-name 1547,54973
+(defsubst js2-token-sym 1561,55416
+(defvar js2-token-codes1565,55548
+(defsubst js2-token-code 1576,55957
+(defsubst js2-report-scan-error 1581,56151
+(defsubst js2-get-string-from-buffer 1589,56438
+(defsubst js2-add-to-string 1598,56769
+(defsubst js2-unget-char 1605,57109
+(defsubst js2-get-char 1610,57292
+(defsubst js2-read-unicode-escape 1634,58143
+(defsubst js2-match-char 1650,58916
+(defsubst js2-peek-char 1659,59182
+(defsubst js2-java-identifier-start-p 1664,59263
+(defsubst js2-java-identifier-part-p 1670,59385
+(defsubst js2-alpha-p 1679,59659
+(defsubst js2-digit-p 1686,59778
+(defsubst js2-js-space-p 1689,59834
+(defsubst js2-skip-line 1697,60021
+(defun js2-init-scanner 1705,60233
+(defun js2-token-to-string 1733,61289
+(defconst js2-keywords1746,61693
+(defconst js2-kwd-tokens1764,62107
+(defconst js2-reserved-words1795,63354
+(defconst js2-keyword-names1811,63640
+(defconst js2-reserved-word-names1822,64044
+(defsubst js2-collect-string 1830,64311
+(defun js2-string-to-keyword 1843,64577
+(defsubst js2-ts-set-char-token-bounds 1849,64830
+(defsubst js2-ts-return 1854,64995
+(defsubst js2-x-digit-to-int 1860,65181
+(defun js2-get-token 1883,65795
+(defun js2-read-regexp 2334,83281
+(defun js2-get-first-xml-token 2393,85125
+(defsubst js2-xml-discard-string 2400,85319
+(defun js2-get-next-xml-token 2406,85531
+(defun js2-read-quoted-string 2524,90551
+(defun js2-read-xml-comment 2534,90840
+(defun js2-read-cdata 2553,91445
+(defun js2-read-entity 2572,92046
+(defun js2-read-PI 2588,92425
+(defun js2-scanner-get-line 2601,92808
+(defvar js2-message-table2625,93429
+(defmacro js2-msg 2630,93598
+(defun js2-get-msg 2634,93715
+(defvar js2-property-flag 3286,111478
+(defvar js2-attribute-flag 3287,111553
+(defvar js2-descendants-flag 3288,111603
+(defsubst js2-relpos 3290,111654
+(defsubst js2-make-pad 3295,111787
+(defsubst js2-visit-ast 3300,111901
+(defstruct (js2-node3331,113240
+(defsubst js2-node-get-prop 3340,113573
+(defsubst js2-node-set-prop 3343,113690
+(defsubst js2-fixup-starts 3347,113824
+(defsubst js2-node-add-children 3355,114123
+(defsubst js2-node-abs-pos 3365,114533
+(defsubst js2-node-abs-end 3371,114690
+(defstruct (js2-block-node3380,115058
+(defsubst js2-visit-block 3394,115668
+(defun js2-print-block 3399,115835
+(defstruct (js2-scope3406,116019
+(defun js2-scope-set-parent-scope 3426,116992
+(defun js2-node-get-enclosing-scope 3432,117234
+(defun js2-get-defining-scope 3440,117525
+(defsubst js2-scope-get-symbol 3457,118097
+(defsubst js2-scope-put-symbol 3466,118459
+(defstruct (js2-symbol3477,118890
+(defstruct (js2-error-node3487,119194
+(defstruct (js2-script-node3498,119682
+(defun js2-print-script 3517,120536
+(defstruct (js2-ast-root3521,120651
+(defun js2-visit-ast-root 3538,121487
+(defstruct (js2-comment-node3544,121690
+(defun js2-print-comment 3556,122248
+(defstruct (js2-expr-stmt-node3562,122462
+(defsubst js2-expr-stmt-node-set-has-result 3572,122871
+(defun js2-visit-expr-stmt-node 3579,123195
+(defun js2-print-expr-stmt-node 3582,123283
+(defstruct (js2-loop-node3586,123398
+(defstruct (js2-do-node3594,123668
+(defun js2-visit-do-node 3612,124458
+(defun js2-print-do-node 3616,124578
+(defstruct (js2-while-node3625,124862
+(defun js2-visit-while-node 3641,125585
+(defun js2-print-while-node 3645,125714
+(defstruct (js2-for-node3653,125957
+(defun js2-visit-for-node 3673,126840
+(defun js2-print-for-node 3679,127049
+(defstruct (js2-for-in-node3691,127410
+(defun js2-visit-for-in-node 3715,128585
+(defun js2-print-for-in-node 3720,128763
+(defstruct (js2-return-node3734,129181
+(defun js2-visit-return-node 3747,129762
+(defun js2-print-return-node 3751,129884
+(defstruct (js2-if-node3758,130077
+(defun js2-visit-if-node 3781,131125
+(defun js2-print-if-node 3787,131333
+(defstruct (js2-try-node3807,131890
+(defun js2-visit-try-node 3824,132623
+(defun js2-print-try-node 3831,132877
+(defstruct (js2-catch-node3845,133298
+(defun js2-visit-catch-node 3868,134434
+(defun js2-print-catch-node 3874,134653
+(defstruct (js2-finally-node3887,135069
+(defun js2-visit-finally-node 3900,135666
+(defun js2-print-finally-node 3903,135750
+(defstruct (js2-switch-node3909,135926
+(defun js2-visit-switch-node 3928,136863
+(defun js2-print-switch-node 3933,137018
+(defstruct (js2-case-node3943,137312
+(defun js2-visit-case-node 3957,137951
+(defun js2-print-case-node 3962,138112
+(defstruct (js2-throw-node3974,138434
+(defun js2-visit-throw-node 3987,138989
+(defun js2-print-throw-node 3990,139069
+(defstruct (js2-with-node3995,139203
+(defun js2-visit-with-node 4014,140034
+(defun js2-print-with-node 4018,140157
+(defstruct (js2-label-node4026,140393
+(defun js2-print-label 4040,140999
+(defstruct (js2-labeled-stmt-node4045,141108
+(defun js2-get-label-by-name 4063,142073
+(defun js2-visit-labeled-stmt 4074,142512
+(defun js2-print-labeled-stmt 4079,142681
+(defun js2-labeled-stmt-node-contains 4084,142855
+(defsubst js2-labeled-stmt-node-add-label 4092,143169
+(defstruct (js2-jump-node4097,143400
+(defun js2-visit-jump-node 4104,143676
+(defstruct (js2-break-node4109,143845
+(defun js2-print-break-node 4125,144653
+(defstruct (js2-continue-node4132,144840
+(defun js2-print-continue-node 4148,145667
+(defstruct (js2-function-node4155,145866
+(defun js2-visit-function-node 4187,147731
+(defun js2-print-function-node 4194,147970
+(defsubst js2-function-name 4223,148836
+(defstruct (js2-var-decl-node4233,149405
+(defun js2-visit-var-decl 4251,150347
+(defun js2-print-var-decl 4255,150451
+(defstruct (js2-var-init-node4274,151053
+(defun js2-visit-var-init-node 4290,151851
+(defun js2-print-var-init-node 4295,152038
+(defstruct (js2-cond-node4305,152313
+(defun js2-visit-cond-node 4326,153169
+(defun js2-print-cond-node 4331,153349
+(defstruct (js2-infix-node4340,153623
+(defun js2-visit-infix-node 4359,154475
+(defconst js2-operator-tokens4365,154671
+(defun js2-print-infix-node 4417,156661
+(defstruct (js2-assign-node4430,157064
+(defstruct (js2-unary-node4445,157752
+(defun js2-visit-unary-node 4461,158482
+(defun js2-print-unary-node 4464,158565
+(defstruct (js2-let-node4480,159037
+(defun js2-visit-let-node 4500,159905
+(defun js2-print-let-node 4506,160089
+(defstruct (js2-keyword-node4512,160259
+(defun js2-print-keyword-node 4525,160872
+(defsubst js2-this-node-p 4536,161266
+(defstruct (js2-new-node4540,161406
+(defun js2-visit-new-node 4561,162401
+(defun js2-print-new-node 4568,162633
+(defstruct (js2-name-node4578,162919
+(defun js2-print-name-node 4593,163611
+(defsubst js2-name-node-length 4597,163707
+(defstruct (js2-number-node4604,163920
+(defun js2-print-number-node 4620,164722
+(defstruct (js2-regexp-node4624,164842
+(defun js2-print-regexp 4640,165618
+(defstruct (js2-string-node4648,165816
+(defun js2-print-string-node 4664,166631
+(defstruct (js2-array-node4668,166726
+(defun js2-visit-array-node 4681,167322
+(defun js2-print-array-node 4686,167465
+(defstruct (js2-object-node4691,167592
+(defun js2-visit-object-node 4704,168186
+(defun js2-print-object-node 4708,168288
+(defstruct (js2-object-prop-node4713,168417
+(defun js2-print-object-prop-node 4729,169283
+(defstruct (js2-getter-setter-node4735,169469
+(defun js2-print-getter-setter 4751,170346
+(defstruct (js2-prop-get-node4760,170648
+(defun js2-visit-prop-get-node 4773,171300
+(defun js2-print-prop-get-node 4779,171511
+(defstruct (js2-elem-get-node4785,171688
+(defun js2-visit-elem-get-node 4804,172663
+(defun js2-print-elem-get-node 4810,172882
+(defstruct (js2-call-node4817,173078
+(defun js2-visit-call-node 4836,173973
+(defun js2-print-call-node 4841,174119
+(defstruct (js2-yield-node4848,174299
+(defun js2-visit-yield-node 4861,174873
+(defun js2-print-yield-node 4864,174954
+(defstruct (js2-paren-node4871,175135
+(defun js2-visit-paren-node 4886,175820
+(defun js2-print-paren-node 4889,175900
+(defstruct (js2-array-comp-node4895,176038
+(defun js2-visit-array-comp-node 4918,177327
+(defun js2-print-array-comp-node 4925,177581
+(defstruct (js2-array-comp-loop-node4940,178005
+(defun js2-visit-array-comp-loop 4958,179065
+(defun js2-print-array-comp-loop 4962,179220
+(defstruct (js2-empty-expr-node4969,179427
+(defstruct (js2-xml-node4980,179910
+(defun js2-print-xml-node 4994,180562
+(defstruct (js2-xml-js-expr-node4998,180661
+(defun js2-visit-xml-js-expr 5012,181361
+(defun js2-print-xml-js-expr 5015,181448
+(defstruct (js2-xml-dot-query-node5021,181593
+(defun js2-print-xml-dot-query 5040,182577
+(defstruct (js2-xml-ref-node5047,182780
+(defsubst js2-xml-ref-node-attr-access-p 5076,183968
+(defstruct (js2-xml-prop-ref-node5081,184174
+(defun js2-visit-xml-prop-ref-node 5108,185450
+(defun js2-print-xml-prop-ref-node 5114,185697
+(defstruct (js2-xml-elem-ref-node5124,186051
+(defun js2-visit-xml-elem-ref-node 5160,187708
+(defun js2-print-xml-elem-ref-node 5166,187947
+(defstruct (js2-xml-start-tag-node5180,188401
+(defun js2-visit-xml-start-tag 5199,189413
+(defun js2-print-xml-start-tag 5205,189606
+(defstruct (js2-xml-end-tag-node5215,190000
+(defun js2-visit-xml-end-tag 5228,190616
+(defun js2-print-xml-end-tag 5231,190703
+(defstruct (js2-xml-name-node5237,190849
+(defun js2-visit-xml-name-node 5255,191817
+(defun js2-print-xml-name-node 5258,191908
+(defstruct (js2-xml-pi-node5266,192158
+(defun js2-visit-xml-pi-node 5281,192858
+(defun js2-print-xml-pi-node 5286,193011
+(defstruct (js2-xml-cdata-node5294,193239
+(defun js2-visit-xml-cdata-node 5307,193897
+(defun js2-print-xml-cdata-node 5310,193988
+(defstruct (js2-xml-attr-node5314,194105
+(defun js2-visit-xml-attr-node 5333,194992
+(defun js2-print-xml-attr-node 5337,195126
+(defstruct (js2-xml-text-node5347,195450
+(defun js2-visit-xml-text-node 5360,196083
+(defun js2-print-xml-text-node 5363,196172
+(defstruct (js2-xml-comment-node5368,196310
+(defun js2-print-xml-comment 5379,196825
+(defsubst js2-node-line 5385,196940
+(defsubst js2-block-node-kid 5390,197145
+(defsubst js2-block-node-first 5394,197280
+(defun js2-node-root 5398,197416
+(defun js2-node-position-in-parent 5406,197621
+(defsubst js2-node-short-name 5418,198081
+(defsubst js2-node-child-list 5423,198260
+(defsubst js2-node-set-child-list 5449,199144
+(defconst js2-paren-expr-nodes5473,200016
+(defsubst js2-paren-expr-node-p 5494,200693
+(defsubst js2-node-lp 5502,201088
+(defsubst js2-node-rp 5537,202196
+(defsubst js2-node-first-child 5571,203303
+(defsubst js2-node-last-child 5575,203443
+(defun js2-node-prev-sibling 5579,203588
+(defun js2-node-next-sibling 5593,204063
+(defun js2-node-find-child-before 5604,204438
+(defun js2-node-find-child-after 5630,205440
+(defun js2-node-replace-child 5637,205728
+(defun js2-node-buffer 5648,206099
+(defsubst js2-block-node-push 5657,206412
+(defun js2-node-string 5667,206826
+(defvar js2-discovered-node 5678,207231
+(defvar js2-visitor-offset 5682,207374
+(defvar js2-node-search-point 5685,207456
+(defun js2-node-at-point 5700,207944
+(defun js2-node-at-point-visitor 5734,209358
+(defsubst js2-block-comment-p 5764,210507
+(defun js2-comment-at-point 5770,210785
+(defun js2-mode-find-parent-fn 5789,211460
+(defun js2-mode-find-enclosing-fn 5797,211750
+(defun js2-mode-find-enclosing-node 5807,212056
+(defun js2-node-parent-script-or-fn 5821,212542
+(defsubst js2-nested-function-p 5832,212925
+(defsubst js2-mode-shift-kids 5839,213278
+(defsubst js2-mode-shift-children 5844,213431
+(defsubst js2-node-is-descendant 5850,213732
+(defun js2-visit-none 5859,213962
+(defun js2-print-none 5863,214061
+(defun js2-print-body 5866,214156
+(defun js2-print-list 5873,214390
+(defun js2-print-tree 5882,214633
+(defun js2-print-ast 5888,214856
+(defconst js2-side-effecting-tokens5899,215266
+(defun js2-node-has-side-effects 5974,217779
+(defun js2-member-expr-leftmost-name 6006,219022
+(defconst js2-stmt-node-types6028,219958
+(defun js2-stmt-node-p 6054,220854
+(defsubst js2-mode-find-first-stmt 6063,221251
+(defun js2-node-parent-stmt 6071,221553
+(defconst js2-END_UNREACHED 6131,223973
+(defconst js2-END_DROPS_OFF 6132,224004
+(defconst js2-END_RETURNS 6133,224035
+(defconst js2-END_RETURNS_VALUE 6134,224064
+(defconst js2-END_YIELDS 6135,224099
+(defun js2-has-consistent-return-usage 6137,224128
+(defun js2-end-check-if 6148,224683
+(defun js2-end-check-switch 6160,225179
+(defun js2-end-check-try 6185,226081
+(defun js2-end-check-loop 6212,227154
+(defun js2-end-check-block 6245,228422
+(defun js2-end-check-label 6262,229116
+(defun js2-end-check-break 6273,229621
+(defun js2-end-check 6283,230014
+(defun js2-always-defined-boolean-p 6336,231498
+(defsubst js2-set-face 6367,232286
+(defsubst js2-set-kid-face 6378,232708
+(defsubst js2-fontify-kwd 6388,233043
+(defsubst js2-clear-face 6391,233150
+(defsubst js2-record-text-property 6397,233387
+(defconst js2-ecma-global-props6401,233566
+(defconst js2-ecma-object-props6410,233860
+(defconst js2-ecma-global-funcs6418,234099
+(defconst js2-ecma-number-props6428,234403
+(defconst js2-ecma-date-props 6437,234706
+(defconst js2-ecma-math-props6442,234853
+(defconst js2-ecma-math-funcs6452,235109
+(defconst js2-ecma-function-props6461,235440
+(defsubst js2-parse-highlight-prop-get 6502,237355
+(defun js2-parse-highlight-member-expr-node 6548,239278
+(defun js2-parse-highlight-member-expr-fn-name 6592,241297
+(defconst js2-jsdoc-param-tag-regexp6611,242200
+(defconst js2-jsdoc-typed-tag-regexp6620,242511
+(defconst js2-jsdoc-arg-tag-regexp6627,242753
+(defconst js2-jsdoc-empty-tag-regexp6634,242992
+(defconst js2-jsdoc-link-tag-regexp6642,243286
+(defconst js2-jsdoc-see-tag-regexp6646,243401
+(defconst js2-jsdoc-html-tag-regexp6650,243527
+(defsubst js2-jsdoc-highlight-helper 6654,243669
+(defun js2-highlight-jsdoc 6673,244350
+(defun js2-highlight-assign-targets 6706,245825
+(defun js2-highlight-undeclared-vars 6736,247034
+(defsubst js2-prop-node-name 6844,251737
+(defsubst js2-node-qname-component 6859,252287
+(defsubst js2-record-function-qname 6868,252660
+(defun js2-record-imenu-functions 6878,253189
+(defun js2-compute-nested-prop-get 6907,254360
+(defun js2-record-object-literal 6931,255548
+(defsubst js2-node-top-level-decl-p 6961,257185
+(defun js2-browse-postprocess-chains 6977,257773
+(defsubst js2-treeify 7037,260733
+(defun js2-build-alist-trie 7043,260913
+(defun js2-flatten-trie 7087,262629
+(defun js2-build-imenu-index 7115,263446
+(defun js2-test-print-chains 7122,263741
+(defconst js2-version 7205,267311
+(defmacro js2-record-face 7208,267404
+(defsubst js2-node-end 7212,267553
+(defsubst js2-record-comment 7219,267804
+(defsubst js2-peek-token 7231,268389
+(defsubst js2-peek-flagged-token 7278,270299
+(defsubst js2-consume-token 7283,270447
+(defsubst js2-next-token 7286,270523
+(defsubst js2-next-flagged-token 7291,270610
+(defsubst js2-match-token 7296,270727
+(defsubst js2-valid-prop-name-token 7304,270969
+(defsubst js2-match-prop-name 7310,271142
+(defsubst js2-must-match-prop-name 7320,271470
+(defsubst js2-peek-token-or-eol 7326,271621
+(defsubst js2-set-check-for-label 7338,272128
+(defsubst js2-must-match 7342,272306
+(defsubst js2-inside-function 7351,272618
+(defsubst js2-set-requires-activation 7354,272687
+(defsubst js2-check-activation-name 7358,272861
+(defsubst js2-set-is-generator 7366,273206
+(defsubst js2-must-have-xml 7370,273369
+(defsubst js2-push-scope 7374,273487
+(defsubst js2-pop-scope 7382,273794
+(defsubst js2-enter-loop 7386,273901
+(defsubst js2-exit-loop 7399,274526
+(defsubst js2-enter-switch 7404,274626
+(defsubst js2-exit-switch 7407,274714
+(defun js2-parse 7410,274777
+(defun js2-do-parse 7469,277292
+(defun js2-function-parser 7510,278889
+(defun js2-parse-function-body 7514,278997
+(defun js2-parse-function-params 7539,280050
+(defsubst js2-check-inconsistent-return-warning 7564,281047
+(defun js2-parse-function 7582,281955
+(defun js2-parse-statements 7691,286287
+(defun js2-parse-statement 7713,287247
+(defconst js2-parsers7736,287947
+(defsubst js2-parse-warn-missing-semi 7763,289253
+(defconst js2-no-semi-insertion7774,289612
+(defconst js2-autoinsert-semi-and-warn7788,289898
+(defun js2-statement-helper 7791,289973
+(defun js2-parse-condition 7828,291345
+(defun js2-parse-if 7849,292290
+(defun js2-parse-switch 7877,293331
+(defun js2-parse-while 7948,295996
+(defun js2-parse-do 7969,296744
+(defun js2-parse-for 7999,297838
+(defun js2-parse-try 8095,301582
+(defun js2-parse-throw 8188,305071
+(defsubst js2-match-jump-label-name 8205,305670
+(defun js2-parse-break 8214,306069
+(defun js2-parse-continue 8245,307425
+(defun js2-parse-with 8278,308894
+(defun js2-parse-const-var 8304,309742
+(defsubst js2-wrap-with-expr-stmt 8319,310237
+(defun js2-parse-let-stmt 8330,310722
+(defun js2-parse-ret-yield 8346,311305
+(defconst js2-parse-return-stmt-enders8349,311388
+(defsubst js2-now-all-set 8352,311504
+(defun js2-parse-return-or-yield 8360,311860
+(defun js2-parse-debugger 8423,314650
+(defun js2-parse-block 8427,314748
+(defun js2-parse-semi 8443,315250
+(defun js2-parse-default-xml-namespace 8455,315659
+(defun js2-record-label 8482,316795
+(defun js2-parse-name-or-label 8501,317682
+(defun js2-parse-expr-stmt 8548,319494
+(defun js2-parse-variables 8552,319662
+(defun js2-parse-let 8630,322590
+(defsubst js2-define-new-symbol 8665,324106
+(defun js2-define-symbol 8670,324296
+(defun js2-parse-expr 8719,326383
+(defun js2-parse-assign-expr 8740,327141
+(defun js2-parse-cond-expr 8773,328396
+(defun js2-make-binary 8798,329303
+(defun js2-parse-or-expr 8818,330148
+(defun js2-parse-and-expr 8826,330384
+(defun js2-parse-bit-or-expr 8834,330627
+(defun js2-parse-bit-xor-expr 8842,330883
+(defun js2-parse-bit-and-expr 8850,331142
+(defconst js2-parse-eq-ops8858,331391
+(defun js2-parse-eq-expr 8861,331461
+(defconst js2-parse-rel-ops8871,331758
+(defun js2-parse-rel-expr 8874,331847
+(defconst js2-parse-shift-ops8890,332263
+(defun js2-parse-shift-expr 8893,332329
+(defun js2-parse-add-expr 8906,332676
+(defconst js2-parse-mul-ops8919,333026
+(defun js2-parse-mul-expr 8922,333089
+(defsubst js2-make-unary 8935,333436
+(defconst js2-incrementable-node-types8957,334195
+(defsubst js2-check-bad-inc-dec 8961,334362
+(defun js2-parse-unary-expr 8969,334690
+(defun js2-parse-xml-initializer 9024,336420
+(defun js2-parse-argument-list 9081,338650
+(defun js2-parse-member-expr 9095,339170
+(defun js2-parse-member-expr-tail 9139,340648
+(defun js2-parse-dot-query 9169,341597
+(defun js2-parse-element-get 9195,342541
+(defun js2-parse-function-call 9217,343381
+(defun js2-parse-property-access 9235,343997
+(defun js2-parse-attribute-access 9298,346622
+(defun js2-parse-property-name 9329,347605
+(defun js2-parse-xml-elem-ref 9379,349466
+(defun js2-parse-primary-expr 9403,350474
+(defun js2-parse-name 9490,353061
+(defsubst js2-parse-warn-trailing-comma 9513,354156
+(defun js2-parse-array-literal 9526,354517
+(defun js2-parse-array-comprehension 9580,356346
+(defun js2-parse-array-comp-loop 9608,357641
+(defun js2-parse-object-literal 9675,360020
+(defun js2-parse-named-prop 9723,361636
+(defun js2-parse-plain-property 9756,362921
+(defun js2-parse-getter-setter-prop 9775,363663
+(defun js2-create-name-node 9805,364822
+(defconst js-possibly-braceless-keyword-re9868,367774
+(defconst js-indent-operator-re9875,368009
+(defsubst js2-code-at-bol-p 9884,368432
+(defun js2-insert-and-indent 9890,368617
+(defun js-re-search-forward-inner 9905,369271
+(defun js-re-search-forward 9926,370038
+(defun js-re-search-backward-inner 9945,370767
+(defun js-re-search-backward 9965,371521
+(defun js-looking-at-operator-p 9984,372254
+(defun js-continued-expression-p 9994,372609
+(defun js-end-of-do-while-loop-p 10007,373040
+(defun js-ctrl-statement-indentation 10031,374001
+(defun js2-indent-in-array-comp 10057,375161
+(defun js2-array-comp-indentation 10079,376103
+(defun js-proper-indentation 10091,376445
+(defun js2-lineup-comment 10139,378223
+(defun js2-backward-sws 10151,378640
+(defun js2-forward-sws 10156,378767
+(defsubst js2-current-indent 10161,378891
+(defsubst js2-arglist-close 10170,379165
+(defsubst js2-indent-looks-like-label-p 10178,379397
+(defun js2-indent-in-objlit-p 10183,379542
+(defsubst js2-indent-objlit-arg-p 10199,380167
+(defsubst js2-indent-case-block-p 10210,380485
+(defsubst js2-syntax-bol 10219,380709
+(defun js2-bounce-indent 10227,380937
+(defsubst js2-1-line-comment-continuation-p 10376,387533
+(defun js2-indent-line 10392,388037
+(defun js2-indent-region 10431,389667
+(defun js2-mode 10451,390134
+(defun js2-mode-check-compat 10528,393686
+(defun js2-mode-exit 10539,394177
+(defun js2-before-save 10552,394605
+(defsubst js2-mode-reset-timer 10562,394964
+(defun js2-mode-edit 10569,395199
+(defun js2-mode-run-font-lock 10575,395371
+(defun js2-reparse 10592,396232
+(defun js2-mode-show-node 10636,398211
+(defun js2-mode-hide-overlay 10659,399146
+(defun js2-mode-reset 10673,399721
+(defsubst js2-mode-show-warn-or-err 10679,399836
+(defun js2-remove-overlays 10695,400514
+(defun js2-mode-fontify-regions 10704,400787
+(defun js2-mode-show-errors 10717,401375
+(defun js2-mode-remove-suppressed-warnings 10723,401577
+(defun js2-mode-show-warnings 10751,402917
+(defun js2-echo-error 10757,403135
+(defalias #'js2-echo-help 10763,403307
+(defun js2-enter-key 10765,403352
+(defun js2-mode-split-string 10787,404089
+(defun js2-mode-extend-comment 10811,404976
+(defun js2-fill-string 10861,406663
+(defun js2-fill-paragraph 10889,407729
+(defun js2-fill-comment 10909,408517
+(defun js2-beginning-of-line 10950,410077
+(defun js2-end-of-line 10970,410694
+(defun js2-enter-mirror-mode(10977,410885
+(defun js2-leave-mirror-mode(10990,411640
+(defsubst js2-mode-inside-string 10996,411837
+(defsubst js2-mode-inside-comment-or-string 11003,412108
+(defun js2-mode-match-curly 11018,412630
+(defun js2-mode-match-bracket 11047,413736
+(defun js2-mode-match-paren 11059,414082
+(defsubst js2-match-quote 11071,414448
+(defun js2-mode-match-single-quote 11100,415564
+(defun js2-mode-match-double-quote 11109,415867
+(defun js2-mode-magic-close-paren 11114,415982
+(defun js2-mode-wait-for-parse 11136,416803
+(defun js2-mode-parse-finished 11144,417134
+(defun js2-mode-flag-region 11156,417627
+(defun js2-isearch-open-invisible 11171,418257
+(defun js2-mode-invisible-overlay-bounds 11175,418401
+(defun js2-mode-function-at-point 11188,418841
+(defun js2-mode-toggle-element 11197,419187
+(defun js2-mode-hide-element 11230,420316
+(defun js2-mode-show-element 11256,421248
+(defun js2-mode-show-all 11264,421513
+(defun js2-mode-toggle-hide-functions 11269,421652
+(defun js2-mode-hide-functions 11275,421806
+(defun js2-mode-function-hider 11287,422268
+(defun js2-mode-show-functions 11301,422738
+(defun js2-mode-hide-comment 11314,423226
+(defun js2-mode-toggle-hide-comments 11323,423590
+(defun js2-mode-hide-comments 11332,423884
+(defsubst js2-mode-extend-//-comment 11345,424340
+(defun js2-mode-hide-//-comments 11362,425059
+(defun js2-mode-toggle-//-comment 11377,425591
+(defun js2-mode-show-comments 11393,426190
+(defun js2-mode-display-warnings-and-errors 11405,426634
+(defun js2-mode-hide-warnings-and-errors 11412,426844
+(defun js2-mode-toggle-warnings-and-errors 11419,427056
+(defun js2-mode-customize 11432,427572
+(defun js2-mode-forward-sexp 11436,427649
+(defun js2-next-error 11469,428905
+(defun js2-mouse-3 11512,430487
+(defun js2-mode-create-imenu-index 11524,430917
+(defun js2-mode-find-tag 11536,431339
+(defun js2-mode-forward-sibling 11552,431982
+(defun js2-mode-backward-sibling 11562,432406
+(defun js2-beginning-of-defun 11571,432782
+(defun js2-end-of-defun 11584,433251
+(defun js2-mark-defun 11595,433751
+(defun js2-narrow-to-defun 11641,435527
+(defalias 'js2r js2r11652,435924
+
+vimpulse.el,4469
+(define-key viper-vi-global-user-map 468,19995
+(define-key viper-vi-global-user-map 469,20054
+(define-key viper-vi-global-user-map 473,20129
+(define-key viper-vi-global-user-map 474,20181
+(define-key viper-vi-global-user-map 475,20246
+(define-key viper-vi-global-user-map 476,20315
+(define-key viper-vi-global-user-map 477,20382
+(define-key viper-vi-global-user-map 478,20441
+(define-key viper-vi-global-user-map 479,20499
+(define-key viper-vi-global-user-map 480,20563
+(define-key viper-vi-global-user-map 481,20630
+(define-key viper-vi-global-user-map 482,20718
+(define-key viper-vi-global-user-map 483,20807
+(define-key viper-vi-global-user-map 484,20882
+(define-key viper-vi-global-user-map 485,20957
+(define-key viper-vi-global-user-map 486,21030
+(define-key viper-vi-global-user-map 489,21131
+(define-key viper-vi-global-user-map 490,21182
+(define-key viper-vi-global-user-map 493,21256
+(define-key viper-vi-global-user-map 494,21322
+(define-key viper-vi-global-user-map 495,21392
+(define-key viper-vi-global-user-map 496,21459
+(define-key viper-vi-global-user-map 497,21527
+(define-key viper-vi-global-user-map 498,21588
+(define-key viper-vi-global-user-map 499,21659
+(define-key viper-vi-global-user-map 502,21756
+(define-key viper-vi-global-user-map 503,21817
+(define-key viper-insert-global-user-map 507,21934
+(define-key viper-insert-global-user-map 508,21999
+(define-key viper-insert-global-user-map 509,22078
+(defvar viper-extra-ex-commands 511,22164
+(defun my-viper-open-new-line-above 522,22502
+(defun my-viper-open-new-line-below 526,22624
+(defun viper-goto-first-line 532,22767
+(defun viper-kill-current-buffer 537,22887
+(defun viper-cycle-windows 542,22991
+(defun viper-search-for-symbol-at-point 547,23107
+(defun viper-search-forward-for-symbol-at-point 554,23413
+(defun viper-search-backward-for-symbol-at-point 558,23521
+(defun viper-jump-to-tag-at-point 562,23632
+(defadvice viper-ex 571,24016
+(defun viper-exec-change 587,24776
+(defun viper-adjust-undo 595,25038
+(defun my-viper-abbrev-expand-after 603,25302
+(define-key viper-vi-basic-map 627,26321
+(define-key viper-vi-basic-map 628,26376
+(defun vimpulse-set-movement-keys-for-map 633,26596
+(defgroup viper-visual 664,27450
+(defvar viper-visual-mode-map 675,27706
+(defvar viper-visual-mode-linewise 677,27839
+(defvar viper-visual-mode-block 679,27928
+(defcustom viper-visual-load-hook 681,28015
+(defadvice viper-move-marker-locally 686,28142
+(defadvice viper-deactivate-mark 690,28270
+(defmacro my-get-emulation-keymap 697,28518
+(defadvice viper-normalize-minor-mode-map-alist 702,28641
+(defun viper-visual-mode-to-insert-mode 707,28935
+(defvar viper-visual-insert-coords 718,29262
+(defun viper-create-coords 725,29544
+(defun viper-visual-insert 756,30721
+(defun viper-visual-append 768,31102
+(defun connect-undos 780,31480
+(defun viper-exit-insert-state 793,31881
+(defun viper-visual-yank-command 834,33483
+(defun viper-visual-delete-command 848,33881
+(defun viper-visual-change-command 860,34213
+(defun viper-visual-replace-region 876,34628
+(define-key viper-visual-mode-map 892,35048
+(define-key viper-visual-mode-map 893,35106
+(define-key viper-visual-mode-map 894,35164
+(define-key viper-visual-mode-map 895,35225
+(define-key viper-visual-mode-map 896,35293
+(define-key viper-visual-mode-map 897,35361
+(define-key viper-visual-mode-map 898,35429
+(define-key viper-visual-mode-map 899,35497
+(define-key viper-visual-mode-map 900,35563
+(define-key viper-visual-mode-map 901,35636
+(define-key viper-visual-mode-map 902,35694
+(define-key viper-visual-mode-map 903,35762
+(define-key viper-visual-mode-map 904,35830
+(define-key viper-visual-mode-map 905,35898
+(define-key viper-visual-mode-map 906,35966
+(define-key viper-visual-mode-map 907,36034
+(define-key viper-visual-mode-map 908,36102
+(define-key viper-visual-mode-map 909,36170
+(define-key viper-visual-mode-map 910,36234
+(define-key viper-visual-mode-map 911,36298
+(define-key viper-visual-mode-map 912,36358
+(define-key viper-visual-mode-map 913,36418
+(define-key viper-visual-mode-map 915,36515
+(define-key viper-visual-mode-map 916,36565
+(define-key viper-visual-mode-map 917,36615
+(defun vimpulse-set-mark 923,36801
+(defun vimpulse-deactivate-mark 934,37236
+(defun viper-visual-mode-toggle 942,37496
+(defun viper-visual-mode-linewise 954,37850
+(defun viper-visual-mode-block 963,38159
+(defun vimpulse-detect-mark-deactivate 974,38563
+
+weblogger.el,4276
+(defgroup weblogger 152,5078
+(defvar weblogger-blogger-app-key 156,5149
+(defcustom weblogger-server-username 159,5307
+(defcustom weblogger-server-password 164,5462
+(defcustom weblogger-server-url 169,5603
+(defcustom weblogger-weblog-id 175,5839
+(defcustom weblogger-max-entries-in-ring 182,6097
+(defcustom weblogger-ping-urls 188,6305
+(defcustom weblogger-save-password 194,6506
+(defcustom weblogger-config-alist 199,6628
+(defcustom weblogger-blogger-firstline-title 204,6779
+(defvar weblogger-config-name 209,6963
+(defvar weblogger-entry-list 212,7045
+(defvar weblogger-category-list 216,7167
+(defvar weblogger-server-userid 219,7248
+(defvar *weblogger-entry* 222,7324
+(defvar weblogger-entry-mode-hook 225,7396
+(defvar weblogger-start-edit-entry-hook 228,7486
+(defvar weblogger-new-entry-hook 233,7686
+(defvar weblogger-edit-entry-hook 238,7907
+(defvar weblogger-entry-mode-map 241,7988
+(defvar weblogger-template-mode-map 244,8064
+(defvar weblogger-entry-ring 247,8146
+(defvar weblogger-category-ring 250,8218
+(defvar weblogger-ring-index 253,8296
+(defconst weblogger-no-capabilities 256,8366
+(defvar weblogger-capabilities 285,9550
+(defvar weblogger-default-title 288,9651
+(defvar weblogger-default-categories 293,9855
+(defvar weblogger-api-new-entry 298,10078
+(defvar weblogger-api-send-edits 299,10115
+(defvar weblogger-api-list-entries 300,10153
+(defvar weblogger-api-list-categories 301,10193
+(defvar weblogger-weblog-alist 303,10237
+(defvar weblogger-texttype-alist 305,10317
+(defvar menu-bar-weblogger-menu 308,10395
+(defconst weblogger-version 310,10433
+(defun weblogger-select-configuration 358,12484
+(defun weblogger-setup-weblog 389,13442
+(defun weblogger-save-configuration 418,14351
+(defun weblogger-change-server 431,14792
+(defun weblogger-change-user 438,15009
+(defun weblogger-change-weblog 444,15157
+(defun weblogger-change-texttype 455,15471
+(defun weblogger-entry-mode 465,15768
+(defun weblogger-template-mode 477,16205
+(defun weblogger-edit-template 485,16474
+(defun weblogger-save-template 502,16985
+(defun weblogger-edit-main-template 517,17465
+(defun weblogger-edit-archive-template 522,17584
+(defun weblogger-start-entry 527,17725
+(defun weblogger-entry-setup-headers 540,18257
+(defun weblogger-send-entry 596,19955
+(defun weblogger-publish-entry 603,20166
+(defun weblogger-save-entry 612,20394
+(defun weblogger-update-ring 635,21295
+(defun weblogger-server-username 646,21609
+(defun weblogger-server-password 658,22103
+(defun weblogger-weblog-id 669,22520
+(defun weblogger-api-blogger-get-content 681,22916
+(defun weblogger-api-blogger-send-edits 692,23296
+(defun weblogger-api-meta-send-edits 705,23743
+(defun weblogger-api-new-entry 717,24157
+(defun weblogger-api-send-edits 730,24618
+(defun weblogger-api-list-entries 737,24905
+(defun weblogger-api-list-categories 743,25099
+(defun weblogger-api-blogger-new-entry 749,25294
+(defun weblogger-api-meta-new-entry 762,25683
+(defun weblogger-select-weblog 774,26034
+(defun weblogger-weblog-id-from-weblog-name 791,26662
+(defun weblogger-weblog-name-from-id 800,26917
+(defun weblogger-texttype-name-from-id 809,27161
+(defun weblogger-texttype-id-from-name 818,27411
+(defun weblogger-list-texttype-names 827,27665
+(defun weblogger-texttype-alist 834,27867
+(defun weblogger-select-texttype 844,28255
+(defun weblogger-server-url-from-id 858,28681
+(defun weblogger-list-weblog-names 867,28935
+(defun weblogger-weblog-alist 874,29126
+(defun weblogger-ping-weblogs 886,29528
+(defun weblogger-handle-weblog-ping-response 900,29955
+(defun weblogger-goto-entry 913,30412
+(defun weblogger-next-entry 932,31109
+(defun weblogger-prev-entry 937,31229
+(defun weblogger-delete-entry 942,31353
+(defun weblogger-api-blogger-list-categories 964,32014
+(defun weblogger-api-blogger-list-entries 968,32181
+(defun weblogger-api-meta-list-categories 986,32834
+(defun weblogger-api-meta-list-entries 1002,33272
+(defun weblogger-edit-entry 1019,33898
+(defun weblogger-response-to-struct 1036,34517
+(defun weblogger-struct-to-request 1102,36871
+(defun weblogger-server-userid 1120,37505
+(defun weblogger-fetch-entries 1133,37860
+(defun weblogger-determine-capabilities 1144,38299
+(defun weblogger-entry-buffer-to-struct 1176,39670
+
+xml-rpc.el,1307
+(defun xml-rpc-clean-string 170,5819
+(defcustom xml-rpc-load-hook 182,6019
+(defcustom xml-rpc-allow-unicode-string 186,6121
+(defcustom xml-rpc-base64-encode-unicode 192,6386
+(defcustom xml-rpc-base64-decode-unicode 197,6547
+(defcustom xml-rpc-debug 202,6708
+(defconst xml-rpc-version 206,6858
+(defun xml-rpc-value-datep 213,6966
+(defun xml-rpc-value-intp 217,7113
+(defun xml-rpc-value-doublep 221,7205
+(defun xml-rpc-value-stringp 225,7313
+(defun xml-rpc-value-booleanp 229,7405
+(defun xml-rpc-string-to-boolean 234,7521
+(defun xml-rpc-caddar-safe 238,7659
+(defsubst xml-rpc-value-structp 243,7849
+(defsubst xml-rpc-value-arrayp 258,8253
+(defun xml-rpc-xml-list-to-value 263,8403
+(defun xml-rpc-boolean-to-string 313,10060
+(defun xml-rpc-value-to-xml-list 319,10174
+(defun xml-rpc-xml-to-string 373,12117
+(defsubst xml-rpc-response-errorp 393,12708
+(defsubst xml-rpc-response-error-code 399,12992
+(defsubst xml-rpc-response-error-string 404,13179
+(defun xml-rpc-xml-to-response 409,13368
+(defun xml-rpc-get-temp-buffer-name 435,14237
+(defun xml-rpc-request 454,14666
+(defun xml-rpc-clean 522,17318
+(defun xml-rpc-request-process-buffer 557,18057
+(defun xml-rpc-request-callback-handler 592,18998
+(defun xml-rpc-method-call-async 601,19360
+(defun xml-rpc-method-call 621,20158
