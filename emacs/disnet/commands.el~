@@ -1,3 +1,0 @@
-(defun disnet-load-keymap()
-  (interactive)
-  (find-file "~/emacs/disnet/keymap.el"))
