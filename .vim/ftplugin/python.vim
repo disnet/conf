@@ -43,3 +43,5 @@ def RemoveBreakpoints():
 
 vim.command( 'map <s-f7> :py RemoveBreakpoints()<cr>')
 EOF
+
+nmap <silent> <buffer> <cr> :PythonSearchContext<CR>
