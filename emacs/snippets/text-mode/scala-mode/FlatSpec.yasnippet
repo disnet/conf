@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: FlatSpec
+# key: flsp
+# --
+
+import org.scalatest.matchers.ShouldMatchers
+import org.scalatest.FlatSpec
+
+class ${1:name} extends FlatSpec with ShouldMatchers {
+  "$2" should "$3" in {
+    $0
+  }
+}

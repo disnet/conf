@@ -1,0 +1,30 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sun Nov 21 22:20:14 2010
+;; Desktop file format version 206
+;; Emacs version 23.2.50.1
+
+;; Global section:
+(setq tabbar-desktop-saved-tabsets '((".emacs")))
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/emacs/desktop/" "~/.emacs" "~/.emacs.bmk" "~/dev/interps/src/test/scala/com/disnet/InterpSpec.scala" "~/emacs/disnet/keymap.el" "~/emacs/disnet/settings.el" "~/dev/interps/src/test/scala/com/disnet/InterpSpec.scala" "~/dev/interps/src/main/scala/com/disnet/Interp.scala" "~/dev/interps/src/test/scala/com/disnet/InterpSpec.scala" "~/dev/interps/src/main/scala/com/disnet/Interp.scala" "~/dev/interps/src/test/scala/com/disnet/InterpSpec.scala" "~/emacs/snippets/text-mode/scala-mode/FlatSpec.yasnippet" "~/dev/interps/src/test/scala/com/disnet/InterpSpec.scala" "~/emacs/snippets/text-mode/scala-mode/FlatSpec.yasnippet" "~/dev/trace/src/test/scala/edu/ucsc/trace/ANormalizerSpec.scala" "~/emacs/snippets/text-mode/scala-mode/FlatSpec.yasnippet" "~/dev/interps/src/main/scala/com/disnet/Interp.scala" "~/.emacs" "~/dev/interps/src/main/scala/com/disnet/Interp.scala" "~/dev/trace/src/main/scala/edu/ucsc/trace/TraceParser.scala" "~/dev/interps/src/main/scala/com/disnet/Interp.scala" "~/dev/interps/.ensime" "~/usr/ensime" "~/dev/interps/" "~/dev/interps/src/main/scala/com/disnet/Interp.scala" "~/dev/interps/src/test/scala/com/disnet/InterpSpec.scala" "~/dev/interps/src/main/scala/com/disnet/Interp.scala" "~/.emacs" "~/emacs/disnet/" "~/emacs/disnet/settings.el"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/Users/tim/.emacs"
+  ".emacs"
+  'emacs-lisp-mode
+  '(linum-mode yas/minor-mode icicle-mode)
+  894
+  '(816 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+

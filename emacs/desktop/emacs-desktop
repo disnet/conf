@@ -1,0 +1,315 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Wed Apr 13 23:40:32 2011
+;; Desktop file format version 206
+;; Emacs version 23.3.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("ret" "RET" "moz" "let" "cursor" "prim" "magit" "ensime" "we" "what" "we" "ACT" "br" "format" "tobr" "cas" "ise" "the model checking " "factorial" "once the tar" "when the taqr" "seer" "operator dis" "st" "an" "anan" "ana" "gener" "tex-parse" "till" "\\seer" "seer" "related" "java" "atgenj" "syms" "symstra" "khur" "generalized" "a genj" "for" "func" "fig:arch" "arch" "fig:" "this peer" "kjthis peer" "e.g." "float" "path c" "smt inter" "symbolic executor" "implement" "arch.pdf" "fig:" "system un" "S" "system un" "complex numbers " "abs and f" "<<" "numberst" "architec" ":" "\\jjj" "se" "related" "real" "related" "<<" "proxys" "\\t{j" "@pre" "lstinline" "inl" "smt inter" "eps" "lstinline" "lstinlin" "\\m}" "\\m" "sec:dis" "bool" "symbolic executor" "factorial test" "this peer" "dispatch" "todo" "abst" "<<" "well kn" "smal" "smaljjj" "smal" ">>" "accessed" "miscj" "misc" "rb-tre" "realted" "eg" "ie" "iej" "abst" "factorial te" "figure" "kjjk" "Figure" "smalpr" "displayfig" "displayj" "display" "quicksor" "terms" "quicksor" "display" "figure" "displayjj" "display" "lstlis" "display" "displa" "seer" "proj" "subfloat" "subfl" "And" "figure" "ps" "eps" "cite" "undefkjkkjkj" "caption" "undefinedpa" "nonze" "reverse" "termin" "architech" "how" "sma" "formers" "py" "pack" "caption" "copy" "copyrigh" "\\And" "\\and" "And" "pagesty" "smal" "blame" "blame the" "nrule" "nr" "subtyp" "lo" "sword" "lo" "sub" "subtyp" "blame" "lstset" "step" "cast" "subtyp" "cast" "blame the" "judge" "equivh" "termina" ".." "bib" "conclu" "motiv" "e-classify-fn" "e-cast-fn" "t-cast" "t-prim" "e-prim" "jud" "e-classify" "theor" "preservat" "big-step oper" "typing rul" "fig:em" "assert" "stlc" "in this p" "frac" "sol" "t-abst" "cast" "t-const" "jud" "subtyping t" "if two typ" "et al" "rule for fun" "cast" "letb" "example" "lab" "assert" "Trace" "replay" "trace" "tr" "gennum" "wrap" "asser" "trace" "inr" "trace" "call" "rcv" "record" "conclu" "t-cast" "subtyp" "gradual" "motiva" "lemm" "leaks mo" "chann" "in addition, the" "prob" "javasc" "bibliog" "cas" "to chose" "blame" "preser" "gradual" "the class" "fill" "additional term" "picture" "aux" "gen" "anyt" "contracts" "guard" "major" "python" "contrac" "nonproxy" "back" "ispro" "definition of" "unprox" "nonprox" "isnotpro" "definition of" "next" "viper" "ensime"))
+(setq regexp-search-ring '("\\_<lintnode-start\\_>" "\\_<lintnode-location\\_>" "indent" "let" "cursor" "tainting exten" "combining un" "verification of java" "symbolic execution ext" "jpf-se" "\\_<mkvar\\_>" "displayfigu" ">>" "\\_<sen2005cute\\_>" "aaa" "experimen" "chess" "the true or" "hist" "ll" "asdf" "log" "magit" "mag" "font" "\\_<smt_mkvar\\_>" "test" "next" "\\_<_z3\\_>" "self" "slef" "pathcondi" "bool" "test" "idealized" "implem" "the implem" "idealiz" "symbolic execution engine" "there are two" "fig" "the algor" "test" "displayfi" "experiment" "myclear" "displayfi" "display" "dot" "implemn" "boolpro" "intprox" "todo" "displayfi" "smt" "subse" "aasdf" "jk/asdf" "seer" "smt solver inter" "displ" "xi" "related" "implementation" "experimen" "smt solver inter" "display" "arch" "integer pro" "display" "contract system" "peer arch" "fig" "operator dis" "auc" "lino" "line" "one" "path constraints" "quicksor" "fig:com" "fig:complex" "fig:com" "complex" "review" "proj" "with" "with with" "as an ex" "reactive beh" "you've" "describes fun" "send" "sned" "matching a c" "via following" "since inter" "for many pro" "in add" "if it is" "arch" "implement" "operational" "synta" "in prev" "we want to ke" "because" "abstr" "Ian" "ian" "Grace" "bri" "brian" "p" "\\_<PROJ\\_>" "\\_<addAlternation\\_>" "\\_<appendChildren\\_>" "\\_<insertNode\\_>" "\\_<appendNode\\_>" "\\_<modifyElementName\\_>" "\\_<findElements\\_>" "arch" "includ" "math" "lab" "cast" "t-cla" "array" "nru" "nrule" "nrulene" "t-clas" "nr" "swor" "sord" "t-clas" "theor" "t-class" "typing" "frame" "lst" "includ" "graph" "www" "\\_<footlinetext\\_>" "www" "graph" "theme" "include" "camer" "white" "introdu" "for example, if " "the imp" "t-cast" "class" "typing rule" "parser" "conclus" "namely" "abstract" "evaluation" "parser" "section" "\\_<replaceLabel\\_>" "replace" "let" "sugar" "blamelab" "cast" "type" "\\_<Label\\_>" "typing" "types" "eg" "implement" "displ" "figure" "inline" "lst" "lstlist" "listt" "operational sme" "\\_<implementation\\_>" "implm" "operational sem" "footnote" "types" "operation" "ahmed" "blame theor" "swor" "defeq" "comment" "operational sem" "language" "lang" "tit" "blame for all" "gradual informa" "jif" "denning" "biblio" "\\_<valref\\_>" "val" "map" "\\_<makeHeading\\_>" "fmtSp" "\\_<addLine\\_>" "\\_<varz\\_>" "print" "\\_<STR\\_>" "unit" "case " "type" "\\_<TypeException\\_>" "\\_<BlameException\\_>" "else" "\\_<codegenval\\_>" "\\_<idtype\\_>" "app" "\\_<disnet-sbt-test\\_>" "\\_<fmtPlay\\_>" "\\_<formatScene\\_>" "\\_<header\\_>" "main0" "main" "\\_<Rectangle\\_>" "fly" "viper-scroll-down" "viper-scroll" "viper" "\\_<unique_append\\_>" "yank" "ise" "thes" "\\_<displayfigure\\_>" "\\_<which\\_>" "\\_<_gennum\\_>" "\\_<twice\\_>" "\\_<trace\\_>" "\\_<33\\_>" "\\_<trace\\_>" "\\_<bibliographystylebook\\_>" "\\_<append\\_>" "\\_<unique_append\\_>"))
+(setq register-alist '((48 . "\n-- TD nice!\n-- 80\n")))
+(setq file-name-history '("~/emacs/flymake-jslint.el" "~/dev/lintnode/app.js" "~/.viper" "~/dev/seer/js/f1.js" "~/emacs/color-theme-tangotango.el" "~/emacs/color-theme-solarized.el" "~/dev/papers/10proxies/11oopsla/proxy.tex" "~/dev/lambda_gif/doc/_region_.tex" "~/emacs/disnet/load.el" "~/dev/seer/seer/symbolic.py" "~/dev/papers/11seer/smallseer3k.py" "~/dev/seer/main.py" "~/dev/seer/seer/smalltest.py" "/usr/local/share/emacs/site-lisp/magit-svn.el" "/Applications/Emacs.app/Contents/Resources/etc/HELLO" "~/dev/seer/seer/z3.py" "~/dev/papers/11seer/submission-seer.tex" "~/.emacs" "~/dev/papers/11seer/bibliography.bib" "~/dev/papers/11seer/seer.tex" "~/dev/papers/11seer/bibliography.bib" "~/dev/papers/11seer/seer.tex" "~/dev/seer/seer/z3.py" "~/dev/papers/11seer/seer.tex" "~/dev/lambda_gif/doc/_region_.tex" "~/emacs/disnet/load.el" "~/dev/seer/seer/symbolic.py" "~/dev/papers/11seer/smallseer3k.py" "~/dev/seer/main.py" "~/dev/seer/seer/smalltest.py"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/Users/tim/.emacs"
+  ".emacs"
+  'emacs-lisp-mode
+  '(auto-fill-mode icicle-mode yas/minor-mode linum-mode TeX-PDF-mode)
+  2093
+  '(5113 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/tim/emacs/flymake-jslint.el"
+  "flymake-jslint.el"
+  'emacs-lisp-mode
+  '(icicle-mode yas/minor-mode TeX-PDF-mode)
+  249
+  '(925 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (case-fold-search . t)))
+
+(desktop-create-buffer 206
+  "/Users/tim/dev/seer/js/f1.js"
+  "f1.js"
+  'js-mode
+  '(icicle-mode moz-minor-mode pabbrev-mode flymake-mode linum-mode TeX-PDF-mode)
+  363
+  '(132 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (case-fold-search . t)))
+
+(desktop-create-buffer 206
+  "/Users/tim/dev/lintnode/app.js"
+  "app.js"
+  'js-mode
+  '(icicle-mode moz-minor-mode flymake-mode TeX-PDF-mode)
+  964
+  '(3866 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (case-fold-search . t)))
+
+(desktop-create-buffer 206
+  "/Users/tim/dev/js-test/src-test/test.js"
+  "test.js"
+  'fundamental-mode
+  '(icicle-mode pabbrev-mode TeX-PDF-mode)
+  39
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/tim/.viper"
+  ".viper"
+  'emacs-lisp-mode
+  '(icicle-mode yas/minor-mode TeX-PDF-mode)
+  101
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/tim/emacs/moz.el"
+  "moz.el"
+  'emacs-lisp-mode
+  '(icicle-mode yas/minor-mode TeX-PDF-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/tim/emacs/color-theme-tangotango.el"
+  "color-theme-tangotango.el"
+  'emacs-lisp-mode
+  '(icicle-mode yas/minor-mode TeX-PDF-mode)
+  1696
+  '(1219 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (case-fold-search . t)))
+
+(desktop-create-buffer 206
+  "/Users/tim/emacs/color-theme-solarized.el"
+  "color-theme-solarized.el"
+  'emacs-lisp-mode
+  '(icicle-mode yas/minor-mode TeX-PDF-mode)
+  1733
+  '(1819 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (case-fold-search . t)))
+
+(desktop-create-buffer 206
+  "/Users/tim/dev/papers/10proxies/11oopsla/proxy.tex"
+  "proxy.tex<2>"
+  'latex-mode
+  '(icicle-mode yas/minor-mode TeX-PDF-mode reftex-mode flyspell-mode)
+  51358
+  '(51091 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/tim/dev/papers/08toplas/main.tex"
+  "main.tex"
+  'latex-mode
+  '(icicle-mode yas/minor-mode TeX-PDF-mode reftex-mode flyspell-mode)
+  495
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/tim/dev/papers/11javadots/main.tex"
+  "main.tex<3>"
+  'latex-mode
+  '(icicle-mode yas/minor-mode TeX-PDF-mode reftex-mode flyspell-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/tim/dev/papers/10proxies/proxy.tex"
+  "proxy.tex"
+  'latex-mode
+  '(icicle-mode yas/minor-mode TeX-PDF-mode reftex-mode flyspell-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/tim/dev/papers/08pldi-velodrome/main.tex"
+  "main.tex<2>"
+  'latex-mode
+  '(icicle-mode yas/minor-mode TeX-PDF-mode reftex-mode flyspell-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/tim/dev/papers/11seer/seer.tex"
+  "seer.tex"
+  'latex-mode
+  '(auto-fill-mode icicle-mode yas/minor-mode linum-mode TeX-PDF-mode reftex-mode flyspell-mode bib-cite-minor-mode)
+  8524
+  '(8396 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (case-fold-search . t) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/Users/tim/dev/papers/11seer/bibliography.bib"
+  "bibliography.bib"
+  'bibtex-mode
+  '(auto-fill-mode icicle-mode linum-mode TeX-PDF-mode)
+  11211
+  '(11196 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (case-fold-search . t) (TeX-master . t)))
+
+(desktop-create-buffer 206
+  "/Users/tim/dev/papers/11seer/submission-seer.tex"
+  "submission-seer.tex"
+  'latex-mode
+  '(auto-fill-mode icicle-mode yas/minor-mode linum-mode TeX-PDF-mode reftex-mode flyspell-mode bib-cite-minor-mode)
+  38358
+  '(37752 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (case-fold-search . t) (truncate-lines)))
+
+(desktop-create-buffer 206
+  "/Users/tim/dev/seer/seer/z3.py"
+  "z3.py"
+  'python-mode
+  '(auto-fill-mode icicle-mode yas/minor-mode linum-mode TeX-PDF-mode)
+  104
+  '(1697 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Applications/Emacs.app/Contents/Resources/etc/HELLO"
+  "HELLO"
+  'fundamental-mode
+  '(auto-fill-mode view-mode icicle-mode TeX-PDF-mode)
+  1
+  '(1 nil)
+  t
+  nil
+  '((tab-width . 32) (buffer-file-coding-system . iso-2022-7bit-unix)))
+
+(desktop-create-buffer 206
+  "/usr/local/share/emacs/site-lisp/magit-svn.el"
+  "magit-svn.el"
+  'emacs-lisp-mode
+  '(auto-fill-mode icicle-mode yas/minor-mode linum-mode TeX-PDF-mode)
+  1
+  '(1 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/tim/dev/seer/seer/smalltest.py"
+  "smalltest.py<2>"
+  'python-mode
+  '(auto-fill-mode icicle-mode yas/minor-mode linum-mode TeX-PDF-mode)
+  1357
+  '(2650 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/tim/dev/seer/main.py"
+  "main.py"
+  'python-mode
+  '(auto-fill-mode icicle-mode yas/minor-mode linum-mode TeX-PDF-mode)
+  908
+  '(4 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/tim/dev/papers/11seer/smallseer3k.py"
+  "smallseer3k.py"
+  'python-mode
+  '(auto-fill-mode icicle-mode yas/minor-mode linum-mode TeX-PDF-mode)
+  2952
+  '(1922 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (case-fold-search . t)))
+
+(desktop-create-buffer 206
+  "/Users/tim/dev/seer/seer/symbolic.py"
+  "symbolic.py"
+  'python-mode
+  '(auto-fill-mode icicle-mode yas/minor-mode linum-mode TeX-PDF-mode)
+  1978
+  '(83 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/tim/emacs/disnet/load.el"
+  "load.el"
+  'emacs-lisp-mode
+  '(auto-fill-mode icicle-mode yas/minor-mode linum-mode TeX-PDF-mode)
+  236
+  '(656 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/tim/dev/lambda_gif/doc/_region_.tex"
+  "_region_.tex"
+  'latex-mode
+  '(auto-fill-mode visual-line-mode icicle-mode yas/minor-mode linum-mode TeX-PDF-mode reftex-mode flyspell-mode bib-cite-minor-mode)
+  27259
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines)))
+
+(desktop-create-buffer 206
+  nil
+  "*info*"
+  'Info-mode
+  '(icicle-mode TeX-PDF-mode)
+  167999
+  '(1 nil)
+  t
+  '("/Applications/Emacs.app/Contents/Resources/info/emacs" "Concept Index")
+  '((tab-width . 8) (buffer-file-coding-system . undecided-unix) (case-fold-search . t)))
+
